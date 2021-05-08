@@ -16,8 +16,6 @@ public interface UserService {
 
 	boolean checkEmailIsCorrect(String email);
 
-	void sendMail(User user);
-
 	User getByEmail(String email);
 
 	boolean isVerified(User user);

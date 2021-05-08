@@ -45,11 +45,6 @@ public class UserManager implements UserService {
 		return this.userDao.getAll();
 	}
 
-	@Override
-	public void sendMail(User user) {
-		// TODO Auto-generated method stub
-		
-	}
 
 	@Override
 	public User getByEmail(String email) {
